@@ -824,6 +824,9 @@ footer {
 
 .footer-first-line {
     display: flex;
+    padding-top: 103px;
+    padding-bottom: 67px;
+    border-bottom: 2px solid #C4C4C4;
 }
 
 .footer-logo {
@@ -834,6 +837,7 @@ footer {
     font-size: 40px;
     line-height: 100%;
     color: #49BFB2;
+    text-transform: uppercase;
 }
 
 .footer-logo p {
@@ -841,15 +845,18 @@ footer {
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
+    margin-top: 7px;
 }
 
 .footer-service {
     display: flex;
     flex-direction: column;
+    margin-left: 93px;
 }
 
 .footer-service ul a li {
     list-style-type: none;
+    margin-top: 16px;
 }
 
 .footer-service ul a {
@@ -858,6 +865,13 @@ footer {
     line-height: 182%;
     color: #FFFFFF;
 }
+
+.footer-service ul a:hover {
+    opacity: 70%;
+    transition: 100ms;
+}
+
+
 .footer-service h3, .footer-about h3 {
     font-weight: 500;
     font-size: 20px;
@@ -865,9 +879,13 @@ footer {
     color: #FFFFFF;
 }
 
+.footer-about {
+    margin-left: 198px;
+}
 
 .footer-about ul a li {
     list-style-type: none;
+    margin-top: 16px;
 }
 
 .footer-about ul a {
@@ -875,6 +893,15 @@ footer {
     font-size: 17px;
     line-height: 182%;
     color: #FFFFFF;
+}
+
+.footer-about ul a:hover {
+    opacity: 70%;
+    transition: 100ms;
+}
+
+.recent-works {
+    margin-left: 255px;
 }
 
 .recent-works h3 {
@@ -889,8 +916,48 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 16px;
+    padding-top: 24px;
 }
 
 .recent-works-cards img {
     border-radius: 10px;
+
+}
+
+.recent-works-cards a {
+    transition: all 0.3s;
+}
+
+.recent-works-cards a:hover {
+    opacity: 75%;
+    transform: scale(0.9);
+}
+
+
+.footer-second-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer-second-line p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 155%;
+    color: #FFFFFF;
+}
+
+.second-line-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 172px;
+}
+
+.second-line-icons a {
+    transition: all 200ms;
+}
+
+.second-line-icons a:hover {
+    transform: scale(0.9);
+    opacity: 80%;
 }
